@@ -1,3 +1,4 @@
+--take my source idk really care tbh
 local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 
