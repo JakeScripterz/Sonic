@@ -892,9 +892,6 @@ tool.Parent = game.Players.LocalPlayer.Backpack
  
 local function onActivated()
 
-message = "You're boring."
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
-
 local player = game.Players.LocalPlayer
 repeat wait() until player.Character.Humanoid
 local humanoid = player.Character.Humanoid
