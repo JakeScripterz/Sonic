@@ -892,7 +892,7 @@ tool.Parent = game.Players.LocalPlayer.Backpack
  
 local function onActivated()
 
-message = "Your boring."
+message = "You're boring."
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
 
 local player = game.Players.LocalPlayer
@@ -951,7 +951,7 @@ character.HumanoidRootPart.CFrame = CFrame.new(newPosition)
 tool.Parent = game.Players.LocalPlayer.Backpack
 
 local ToolNumber = 5
-local cooldownTime = 5
+local cooldownTime = 0
 
 local player = game.Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
